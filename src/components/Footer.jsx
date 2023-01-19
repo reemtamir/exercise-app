@@ -13,6 +13,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/re-em-tamir-18629b25a/"
           target="_blank"
+          rel="noreferrer"
         >
           <AiFillLinkedin
             style={{
@@ -23,7 +24,7 @@ const Footer = () => {
             className="bi bi-linkedin "
           ></AiFillLinkedin>
         </a>
-        <a href="https://github.com/reemtamir" target="_blank">
+        <a href="https://github.com/reemtamir" target="_blank" rel="noreferrer">
           <AiFillGithub
             style={{ color: 'white', fontSize: '1.5rem' }}
             className="bi bi-github "

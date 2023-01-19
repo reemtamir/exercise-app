@@ -11,10 +11,10 @@ import ShortVideoList from './components/ShortVideoList';
 function App() {
   return (
     <div className="main-container">
-      <Link style={{ textDecoration: 'none' }} to="/">
-        <h1 className="title">Exercises app</h1>
-      </Link>
       <Routes>
+        <Link style={{ textDecoration: 'none' }} to="/">
+          <h1 className="title">Exercises app</h1>
+        </Link>
         <Route
           path="/"
           element={
