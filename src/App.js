@@ -15,14 +15,7 @@ function App() {
         <h1 className="title">Exercises app</h1>
       </Link>
       <Routes>
-        <Route
-          path="./"
-          element={
-            <>
-              <Inputs />
-            </>
-          }
-        ></Route>
+        <Route path="/" element={<Inputs />}></Route>
         <Route
           path="list"
           element={
