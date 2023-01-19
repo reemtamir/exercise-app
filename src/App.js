@@ -1,9 +1,7 @@
 import '../src/styles/main.scss';
-import { useContext } from 'react';
 import Inputs from './components/Inputs';
 import List from './components/List';
 import Footer from './components/Footer';
-import { context } from './Context';
 import { Link, Route, Routes } from 'react-router-dom';
 import Workout from './components/Workout';
 import Watch from './components/Watch';
