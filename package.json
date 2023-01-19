@@ -1,7 +1,7 @@
 {
   "name": "exercise",
   "version": "0.1.0",
-  "homepage": "https://reemtamir.github.io/exsercise-app",
+  "homepage": "https://reemtamir.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
