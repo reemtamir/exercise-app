@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(75, 67, 67);
+}
+.title {
+  color: lightgreen;
+}
+.main-container {
+  width: 70%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.input-container {
+  display: flex;
+  margin: 1rem auto;
+  width: 100%;
+  gap: 1em;
+}
+.select {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  border: 2px solid rgb(143, 216, 26);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+option {
+  background-color: rgb(32, 31, 31);
+  color: white;
+}
+.list-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  margin: 1em;
+}
+.muscle {
+  color: aquamarine;
+  align-self: flex-end;
+}
+.difficulty {
+  color: greenyellow;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  & > h2 {
+    color: rgb(55, 204, 35);
+    margin: 0.5em auto;
+  }
+  & > .span {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.2em 0.2em;
+    text-decoration: none;
+    color: black;
+  }
+  & :hover {
+    color: rgb(124, 120, 160);
+  }
+}
+.workout-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.workout-title {
+  color: rgb(107, 192, 96);
+}
+.equipment {
+  color: rgb(107, 192, 96);
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.instructions {
+  color: rgb(189, 221, 151);
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+.space {
+  flex: 1;
+}
+.link {
+  color: black;
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.2em 1.3em;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgreen;
+  &:hover {
+    background-color: rgb(177, 233, 177);
+    cursor: pointer;
+  }
+  &.btn-ins {
+    margin-top: 0.8em;
+  }
+}
+.title-image-container {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(117, 182, 182);
+  margin-bottom: 1rem;
+  color: rgb(117, 182, 182);
+}
+.iframe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

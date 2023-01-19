@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import '../src/styles/main.scss';
+import { useContext } from 'react';
+import Inputs from './components/Inputs';
+import List from './components/List';
+import Footer from './components/Footer';
+import { context } from './Context';
+import { Link, Route, Routes } from 'react-router-dom';
+import Workout from './components/Workout';
+import Watch from './components/Watch';
+import VideoPlayer from './components/VideoPlayer';
+import ShortVideoList from './components/ShortVideoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+      <Link style={{ textDecoration: 'none' }} to="/">
+        <h1 className="title">Exercises app</h1>
+      </Link>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Inputs />
+            </>
+          }
+        ></Route>
+        <Route
+          path="list"
+          element={
+            <>
+              <Inputs />
+              <List />
+            </>
+          }
+        ></Route>
+        <Route path="workout" element={<Workout />}></Route>
+        <Route path="watch" element={<Watch />}></Route>
+        <Route path="video-player" element={<VideoPlayer />}></Route>
+        <Route path="short-video-list" element={<ShortVideoList />}></Route>
+      </Routes>
+      <div className="space"></div>
+      <Footer />
     </div>
   );
 }
