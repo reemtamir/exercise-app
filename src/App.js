@@ -15,6 +15,7 @@ function App() {
         <Link style={{ textDecoration: 'none' }} to="/">
           <h1 className="title">Exercises app</h1>
         </Link>
+        <Inputs />
         <Route
           path="/"
           element={
