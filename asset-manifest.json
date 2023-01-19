@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/exsercise-app/static/css/main.b5356fd1.css",
-    "main.js": "/exsercise-app/static/js/main.785e29d5.js",
-    "static/js/787.06e0866d.chunk.js": "/exsercise-app/static/js/787.06e0866d.chunk.js",
-    "index.html": "/exsercise-app/index.html",
-    "main.b5356fd1.css.map": "/exsercise-app/static/css/main.b5356fd1.css.map",
-    "main.785e29d5.js.map": "/exsercise-app/static/js/main.785e29d5.js.map",
-    "787.06e0866d.chunk.js.map": "/exsercise-app/static/js/787.06e0866d.chunk.js.map"
+    "main.css": "/static/css/main.b5356fd1.css",
+    "main.js": "/static/js/main.62456bbc.js",
+    "static/js/787.06e0866d.chunk.js": "/static/js/787.06e0866d.chunk.js",
+    "index.html": "/index.html",
+    "main.b5356fd1.css.map": "/static/css/main.b5356fd1.css.map",
+    "main.62456bbc.js.map": "/static/js/main.62456bbc.js.map",
+    "787.06e0866d.chunk.js.map": "/static/js/787.06e0866d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5356fd1.css",
-    "static/js/main.785e29d5.js"
+    "static/js/main.62456bbc.js"
   ]
 }
