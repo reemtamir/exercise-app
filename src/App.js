@@ -11,9 +11,13 @@ import ShortVideoList from './components/ShortVideoList';
 function App() {
   return (
     <div className="main-container">
-      <Link style={{ textDecoration: 'none' }} to="/">
-        <h1 className="title">Exercises app</h1>
-      </Link>
+      <h1>
+        {' '}
+        <Link className="title" style={{ textDecoration: 'none' }} to="/">
+          Exercises app{' '}
+        </Link>
+      </h1>
+
       <Routes>
         <Route path="/" element={<Inputs />}></Route>
         <Route
