@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ExserciseApp/static/css/main.b5356fd1.css",
-    "main.js": "/ExserciseApp/static/js/main.9d4bc9dd.js",
-    "static/js/787.06e0866d.chunk.js": "/ExserciseApp/static/js/787.06e0866d.chunk.js",
-    "index.html": "/ExserciseApp/index.html",
-    "main.b5356fd1.css.map": "/ExserciseApp/static/css/main.b5356fd1.css.map",
-    "main.9d4bc9dd.js.map": "/ExserciseApp/static/js/main.9d4bc9dd.js.map",
-    "787.06e0866d.chunk.js.map": "/ExserciseApp/static/js/787.06e0866d.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.b5356fd1.css",
+    "main.js": "/react-gh-pages/static/js/main.c278c1bc.js",
+    "static/js/787.06e0866d.chunk.js": "/react-gh-pages/static/js/787.06e0866d.chunk.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.b5356fd1.css.map": "/react-gh-pages/static/css/main.b5356fd1.css.map",
+    "main.c278c1bc.js.map": "/react-gh-pages/static/js/main.c278c1bc.js.map",
+    "787.06e0866d.chunk.js.map": "/react-gh-pages/static/js/787.06e0866d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5356fd1.css",
-    "static/js/main.9d4bc9dd.js"
+    "static/js/main.c278c1bc.js"
   ]
 }
