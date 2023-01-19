@@ -16,7 +16,7 @@ function App() {
       </Link>
       <Routes>
         <Route
-          path="/"
+          path="./"
           element={
             <>
               <Inputs />
