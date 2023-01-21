@@ -13,13 +13,17 @@ function App() {
     <div className="main-container">
       <h1>
         {' '}
-        <Link className="title" style={{ textDecoration: 'none' }} to="/">
+        <Link
+          className="title"
+          style={{ textDecoration: 'none' }}
+          to="/exsercise-app"
+        >
           Exercises app{' '}
         </Link>
       </h1>
 
       <Routes>
-        <Route path="/" element={<Inputs />}></Route>
+        <Route path="/exsercise-app" element={<Inputs />}></Route>
         <Route
           path="list"
           element={
