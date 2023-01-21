@@ -23,7 +23,11 @@ const Watch = () => {
 
   return (
     <>
+      <Link to="/workout" className="link">
+          Go back
+        </Link>
       <div>
+      
         {filteredItems.map((item, index) => {
           const { title, bestThumbnail } = item;
 

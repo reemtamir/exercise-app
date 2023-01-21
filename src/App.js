@@ -16,14 +16,14 @@ function App() {
         <Link
           className="title"
           style={{ textDecoration: 'none' }}
-          to="/exsercise-app"
+          to="/exercise-app"
         >
           Exercises app{' '}
         </Link>
       </h1>
 
       <Routes>
-        <Route path="/exsercise-app" element={<Inputs />}></Route>
+        <Route path="/exercise-app" element={<Inputs />}></Route>
         <Route
           path="list"
           element={

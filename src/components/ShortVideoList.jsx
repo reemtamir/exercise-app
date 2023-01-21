@@ -7,6 +7,9 @@ const ShortVideoList = () => {
 
   return (
     <>
+      <Link to="/watch" className="link">
+        Go back
+      </Link>
       {shortVideos.map((video, index) => {
         const { title, url, bestThumbnail } = video;
         return (
